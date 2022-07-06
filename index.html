@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    {{message}}
+    <input type="file" @change="fileChange">
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.14/vue.min.js"
+    integrity="sha512-XdUZ5nrNkVySQBnnM5vzDqHai823Spoq1W3pJoQwomQja+o4Nw0Ew1ppxo5bhF2vMug6sfibhKWcNJsG8Vj9tg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./dist/getFileInfo.js"></script>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello Vue!'
+      },
+      methods: {
+       async  fileChange(e) {
+          const file = e.target.files[0];
+          console.log('%c [ file ]-28', 'font-size:13px; background:pink; color:#bf2c9f;', file)
+          let newFile = await getFileInfo.getFileInfo(file)
+          console.log('newFile', newFile)
+        }
+      },
+
+    })
+  </script>
+</body>
+
+</html>

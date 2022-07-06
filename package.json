@@ -1,0 +1,37 @@
+{
+	"name": "getFileInfo",
+	"version": "1.0.0",
+	"description": "提供获取文件信息，图片/视频，宽高，大小，Md5，视频时长等",
+	"main": "/src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon ./src/index.js",
+		"watch": "webpack --mode=development --watch",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wlxweb/getFileInfo.git"
+	},
+	"keywords": [
+		"getFileIndfo",
+		"File",
+		"Vue",
+		"Md5",
+		"Image"
+	],
+	"author": "webwlx",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wlxweb/getFileInfo/issues"
+	},
+	"homepage": "https://github.com/wlxweb/getFileInfo#readme",
+	"devDependencies": {
+		"prettier": "2.7.1",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.10.0"
+	},
+	"dependencies": {
+		"spark-md5": "^3.0.2"
+	}
+}
