@@ -13,7 +13,7 @@ npm i getFileInfo -S
 ### 引入
 
 ``` js
-import { getFileInfo } from 'getFileInfo;
+import { getFileInfo } from 'get-file-information';
 ```
 
 #### 使用

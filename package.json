@@ -1,5 +1,5 @@
 {
-	"name": "getFileInfo",
+	"name": "get-file-information",
 	"version": "1.0.0",
 	"description": "提供获取文件信息，图片/视频，宽高，大小，Md5，视频时长等",
 	"main": "/src/index.js",
@@ -14,7 +14,7 @@
 		"url": "git+https://github.com/wlxweb/getFileInfo.git"
 	},
 	"keywords": [
-		"getFileIndfo",
+		"getfileinfo",
 		"File",
 		"Vue",
 		"Md5",
