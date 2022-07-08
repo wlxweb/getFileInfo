@@ -2,7 +2,7 @@
 
 > 获取文件信息
 
-预览https://upload.webwlx.cn/
+预览http://upload.webwlx.cn/
 
 #### 安装
 

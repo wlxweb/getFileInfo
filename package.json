@@ -1,6 +1,6 @@
 {
 	"name": "get-file-information",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "提供获取文件信息，图片/视频，宽高，大小，Md5，视频时长等",
 	"main": "/src/index.js",
 	"scripts": {
