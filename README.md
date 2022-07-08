@@ -7,7 +7,7 @@
 #### 安装
 
 ``` shell
-npm i getFileInfo -S
+npm i get-file-information -S
 ```
 
 ### 引入
